@@ -1,4 +1,5 @@
 #include <algorithm>
+#include <iostream>
 #include <vector>
 using namespace std;
 vector<int> findDisappearedNumbers(vector<int> &nums) {
@@ -13,4 +14,12 @@ vector<int> findDisappearedNumbers(vector<int> &nums) {
     }
   }
   return rs;
+}
+
+int main() {
+  vector<int> nums = {1, 2, 3, 5, 6};
+  findDisappearedNumbers(nums);
+  cout << "fdsa" << endl;
+  int aa;
+  return 0;
 }
