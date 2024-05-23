@@ -1,20 +1,28 @@
-
 #include <cmath>
-#include <thread>
 #include <vector>
 using namespace std;
 
 class Solution {
 private:
   vector<vector<int>> rs;
+  vector<bool> visited;
   vector<int> path;
   void dfs(vector<vector<int>> &graph, int x) {
-    if (x == graph.size() - 1) {
+    path.push_back(x);
+    if (x == graph.size() - 1)
       rs.push_back(path);
-      return;
+    for (int i = 0; i < graph[x].size(); ++i) {
+      if (!visited[graph[x][i]]) {
+        dfs(graph, graph[x][i]);
+      }
     }
+    path.pop_back();
   }
 
 public:
-  vector<vector<int>> allPathsSourceTarget(vector<vector<int>> &graph) {}
+  vector<vector<int>> allPathsSourceTarget(vector<vector<int>> &graph) {
+    visited = vector(graph[0].size(), false);
+    dfs(graph, 0);
+    return rs;
+  }
 };

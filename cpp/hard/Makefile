@@ -19,4 +19,4 @@ all: $(BINS)
 
 # 清理生成的可执行文件
 clean:
-	rm -f $(BINS) *.out
+	rm -f $(BINS)
