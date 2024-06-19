@@ -1,25 +1,29 @@
+#include <iostream>
+#include <list>
 #include <vector>
 
 using namespace std;
 
 int iceBreakingGame(int num, int target) {
-  vector<bool> table(num, true);
-  int cur_index = 0;
-  while (num > 1) {
-    int rank = target;
-    while (rank > 0) {
-      if (table[cur_index])
-        --rank;
-      if (rank == 0) {
-        table[cur_index] = false;
-        --num;
-      }
-      cur_index = (cur_index + 1) % table.size();
+  list<int> l;
+  for (int i = 0; i < num; ++i) {
+    l.push_back(i);
+  }
+  auto cur = l.begin();
+  while (l.size() > 1) {
+    for (int i = 1; i < target; ++i) {
+      cur++;
+      if (cur == l.end())
+        cur = l.begin();
     }
+    cur = l.erase(cur);
+    if (cur == l.end())
+      cur = l.begin();
   }
-  for (int i = 0; i <= table.size(); ++i) {
-    if (table[i])
-      return i;
-  }
-  return -1;
+  return *l.begin();
+}
+
+int main() {
+  cout << iceBreakingGame(7, 4);
+  return 0;
 }
