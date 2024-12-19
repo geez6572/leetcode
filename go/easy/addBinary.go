@@ -2,6 +2,7 @@ package main
 
 func addBinary(a string, b string) string {
 	ai := len(a) - 1
+
 	bi := len(b) - 1
 	var flag byte = 0
 	var rs string

@@ -26,3 +26,8 @@ public:
     return rs;
   }
 };
+
+int main() {
+  Solution s;
+  return 0;
+}
