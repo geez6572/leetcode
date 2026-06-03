@@ -5,8 +5,85 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32a87315-ad0f-41fc-b67d-634876cba582" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../java/src/easy/AnswerQueries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/easy/CCountBeautifulPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/easy/CanBeTypedWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/easy/Decode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/easy/EvenOddBit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/easy/FindTheDistanceValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/easy/MaxRepeating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/easy/MaximumCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/easy/MinimumDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/easy/MinimumRecolors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/easy/NowAndMaximumOnes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/easy/OrderedStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/easy/SimilarPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/hard/CheckPartitioning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/hard/MinCut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/hard/MinimumWhiteTiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/hard/PalindromePartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/hard/TextEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/hard/TextEditor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/AddSpaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/Allocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/BautifulSubarrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/BreakPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/BrowserHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/BrowserHistory2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/CanBeValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/CarFleet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/CountNicePairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/DistributeCandies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/FindIndices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/FindSumPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/FoodRatings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/GameOfLife.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/GetAverages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/InterchangeableRectangles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/IsBipartite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/MaxDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/MaxScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/MaxSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/MaxSumTwoNoOverlap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/MaxVowels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/MaximizeWin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/MaximumOr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/MaximumTripletValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/MinimumCost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/MinimumSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/NextLargerNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/NodesBetweenCriticalPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/NumComponents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/NumOfSubarrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/Partition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/RangeFreqQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/Spellchecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/SplitListToParts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/Spreadsheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/medium/SuccessfulPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/easy/createDataframe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rust/src/easy/count_largest_group.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rust/src/easy/count_partitions.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rust/src/easy/find_lucky.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rust/src/easy/max_freq_sum.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rust/src/easy/min_bitwise_array.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rust/src/easy/min_costs.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rust/src/easy/min_operations.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rust/src/easy/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rust/src/easy/recover_order.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rust/src/easy/restore_string.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rust/src/easy/reverse_degree.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rust/src/easy/string_matching.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rust/src/easy/subarray_sum.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rust/src/easy/subset_xor_sum.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rust/src/middle/max_side_length.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rust/src/middle/mod.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/easy/AddBinary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/easy/AddBinary.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle/generateParenthesis.go" beforeDir="false" afterPath="$PROJECT_DIR$/middle/generateParenthesis.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/allCellsDistOrder.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/allCellsDistOrder.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middle/gameOfLife.go" beforeDir="false" afterPath="$PROJECT_DIR$/middle/gameOfLife.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rust/easy/merge_alternately.rs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +117,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
@@ -105,8 +183,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-gosdk-5df93f7ad4aa-df9ad98b711f-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-242.21829.220" />
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-GO-242.21829.220" />
+        <option value="bundled-gosdk-33c477a475b1-e0158606a674-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-241.19072.18" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-GO-241.19072.18" />
       </set>
     </attachedChunks>
   </component>
