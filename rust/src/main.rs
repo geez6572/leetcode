@@ -1,5 +1,7 @@
+
 mod easy;
+mod middle;
 
 fn main() {
-    println!("Hello, world!");
 }
+
