@@ -2,7 +2,7 @@ use std::cmp::max;
 use std::collections::HashMap;
 
 pub fn find_lucky(arr: Vec<i32>) -> i32 {
-    let mut map:HashMap<i32,i32> = HashMap::new();
+    let mut map: HashMap<i32, i32> = HashMap::new();
     for value in arr.iter() {
         *map.entry(*value).or_insert(0) += 1;
     }
@@ -13,7 +13,7 @@ pub fn find_lucky(arr: Vec<i32>) -> i32 {
         if key == value {
             if flag {
                 ma = max(ma, key);
-            }else{
+            } else {
                 flag = true;
                 ma = key;
             }
@@ -21,7 +21,7 @@ pub fn find_lucky(arr: Vec<i32>) -> i32 {
     }
 
     if flag {
-         return ma;
+        return ma;
     }
 
     -1
@@ -33,6 +33,6 @@ mod tests {
     use super::*;
     #[test]
     fn test_find_lucky() {
-        find_lucky(vec![2,2,3,4]);
+        find_lucky(vec![2, 2, 3, 4]);
     }
 }

@@ -5,7 +5,7 @@ pub fn min_costs(cost: Vec<i32>) -> Vec<i32> {
             stack.push(*v);
         }
     }
-    let mut rs: Vec<i32> = vec![0;cost.len()];
+    let mut rs: Vec<i32> = vec![0; cost.len()];
     for i in (0..cost.len()).rev() {
         let mut l = stack.last().unwrap();
         while *l > cost[i] {

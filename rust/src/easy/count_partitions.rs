@@ -5,11 +5,9 @@ pub fn count_partitions(nums: Vec<i32>) -> i32 {
     for value in &nums {
         suffixSum -= value;
         prefixSum += value;
-        if (suffixSum - prefixSum).abs() % 2 == 0{
+        if (suffixSum - prefixSum).abs() % 2 == 0 {
             count += 1;
         }
     }
     count
 }
-
-
