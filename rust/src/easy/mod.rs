@@ -32,3 +32,7 @@ mod largest_local;
 mod count_key_changes;
 mod sum_of_the_digits_of_harshad_number;
 mod gcd_of_odd_even_sums;
+mod remove_trailing_zeros;
+mod is_acronym;
+mod cells_in_range;
+mod final_string;

@@ -3,3 +3,4 @@ mod max_ice_cream;
 mod max_distinct;
 mod pivot_array;
 mod sort_matrix;
+mod total_waviness;
