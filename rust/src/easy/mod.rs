@@ -36,3 +36,4 @@ mod remove_trailing_zeros;
 mod is_acronym;
 mod cells_in_range;
 mod final_string;
+mod generate_key;
